@@ -10,4 +10,30 @@ def max(v):
     return m  #(5)
 
 
-v = np.random.randint(1, 100, 100)
+def main(*args):
+  v = np.random.randint(1, 10, 10)
+  s = sorted(v)
+  r = sorted(v,reverse = True)
+
+  print(v,s,r)
+  
+  n1 = ns()
+  max(v)
+  n2 = ns()
+  print(n2-n1)
+#  print(v)
+
+  n1 = ns()
+  max(s)
+  n2 = ns()
+  print(n2-n1)
+#  print(s)
+  
+  n1 = ns()
+  max(r)
+  n2 = ns()
+  print(n2-n1)
+#  print(r)  
+
+if __name__ == '__main__':
+  main()
