@@ -1,4 +1,13 @@
 import max
 import bubble
+import selectionsort
+import insertionSort
+import mergeSort
+import Quick
 
-bubble.main()
+Quick.main()
+
+#mergeSort.main()
+#insertionSort.main()
+#selectionsort.main()
+#bubble.main()
